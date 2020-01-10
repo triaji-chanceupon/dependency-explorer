@@ -1,0 +1,47 @@
+.hi-section {
+	border-radius: 15px;
+	padding: 24px 30px;
+	border: 1px solid #ccc;
+
+	&.hi-section-px-lg {
+		padding-left: 48px;
+		padding-right: 48px;
+	}
+
+	&.hi-section-py-lg {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+}
+
+.hi-section-clickable {
+	cursor: pointer;
+}
+
+.hi-sub-section {
+	transition: background-color 0.5s ease;
+	background-color: #f5f5f5;
+	padding: 16px;
+
+	h3 {
+		margin-top: 10px;
+		&.title-primary {
+			font-weight: bold;
+			color: #f2910a;
+		}
+	}
+
+	.text-status {
+		font-size: 10px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	&.hi-section-clickable {
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(238, 238, 238, 0.5);
+		}
+	}
+}

@@ -1,0 +1,7 @@
+export const SET_PACKAGES = 'SET_PACKAGES';
+export const SET_PACKAGE = 'SET_PACKAGE';
+export const ADD_PACKAGE = 'ADD_PACKAGE';
+export const UPDATE_PACKAGE = 'UPDATE_PACKAGE';
+export const REMOVE_PACKAGE = 'REMOVE_PACKAGE';
+export const CLEAR_PACKAGE = 'CLEAR_PACKAGE';
+export const CLEAR_PACKAGES = 'CLEAR_PACKAGES';
