@@ -79,7 +79,7 @@
 		"webpack-dev-server": "^3.10.1",
 		"webpack-manifest-plugin": "2.0.4",
 		"workbox-webpack-plugin": "3.6.3",
-		"xlsx": "^0.14.3"
+		"xlsx": "^0.17.0"
 	},
 	"scripts": {
 		"start": "PORT=9110 node scripts/start.js",
